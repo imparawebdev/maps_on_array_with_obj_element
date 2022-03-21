@@ -23,6 +23,6 @@ const musicData = [
   { artist: 'Justin Bieber', name: 'Purpose', sales: 554000 }
 ];
 
-const albumSalesStrings = musicData.map(eachAlbum => eachAlbum.name + ' by ' + eachAlbum.artist + ' sold ' + eachAlbum.sales + ' copies');
+const albumSalesStrings = musicData.map(eachAlbum => `${eachAlbum.name} by ${eachAlbum.artist} sold ${eachAlbum.sales} copies`);
 
 console.log(albumSalesStrings);
